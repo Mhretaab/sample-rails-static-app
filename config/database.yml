@@ -51,10 +51,10 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: d90ag3545urvcc
-  host: ec2-107-20-188-239.compute-1.amazonaws.com
+  database: d2pv1stca0grm1
+  host: ec2-54-221-221-153.compute-1.amazonaws.com
   port: 5432
   pool: 5
-  username: vfpwjytaresqbp
-  password: <%= ENV['TOY_DATABASE_PASSWORD'] %>
+  username: kxhhuuuedbskwu
+  password: <%= ENV['STATIC_DATABASE_PASSWORD'] %>
 
