@@ -46,8 +46,11 @@ group :development do
 end
 
 group :test do
+  # for RED and GREEN tests
   gem 'minitest-reporters'
+  #filter the backtrace to eliminate unwanted lines with backtrace_silencers.rb configuration
   gem 'mini_backtrace'
+  #Automated tests with Guard
   gem 'guard-minitest'
 end
 
