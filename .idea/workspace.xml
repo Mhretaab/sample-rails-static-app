@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08c6ed6-5304-4695-bc45-ceaafd5a03a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_user.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20170819215708_add_admin_to_users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/users_index_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -520,12 +526,12 @@
       <workItem from="1502781324493" duration="8039000" />
       <workItem from="1503061797103" duration="163000" />
       <workItem from="1503139526931" duration="12614000" />
-      <workItem from="1503162265606" duration="17450000" />
+      <workItem from="1503162265606" duration="17742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140899000" />
+    <option name="totallyTimeSpent" value="141191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="155" y="167" width="1537" height="912" extended-state="6" />
